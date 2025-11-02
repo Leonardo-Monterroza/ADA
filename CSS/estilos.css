@@ -9,6 +9,17 @@
     text-align: center;
 }
 
+@font-face {
+    font-family: 'Alina';
+    src: url(/Fuente/Alina\ W00\ regular.ttf);
+}
+
+#Logo-en-letras{
+    font-family: 'Alina';
+    font-size: 300%;
+    text-align: center;
+}
+
 img {
     width: 100px;
 }
