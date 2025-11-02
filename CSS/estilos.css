@@ -15,20 +15,47 @@
 }
 
 #Logo-en-letras{
+    margin: 3%;
     font-family: 'Alina';
     font-size: 300%;
     text-align: center;
 }
 
 img {
-    width: 100px;
+    width: 15%;
 }
 
+#Texto-inicio{
+    margin: 3%;
+    text-align: center;
+}
 .caja{
-    margin: 1%;
+    margin: 3%;
     width: auto;        
     height: auto;        
     display: flex;         
     justify-content: center;
     align-items: center;
+}
+
+.Espacios{
+    margin: 5% 5% 5% 5%;
+}
+
+#vision-box{
+    margin-bottom: 5%;
+}
+
+#mision-box{
+    margin-bottom: 5%;
+}
+
+#politicas-box{
+    margin-bottom: 5%;
+}
+
+#quienesSomos{
+    margin: 5%;
+    text-align: center;
+    font-size: 250%;
 }
