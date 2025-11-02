@@ -4,9 +4,23 @@
 }
 
 #Titulo-Nombre{
-    margin-top: 1%;
+    margin: 0% 2% 0 2%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+
+#linknosotrosbox{
+    margin: 3%;
+}
+#linktrabajabox{
+    margin: 3%;
+}
+#linkespaciosbox{
+    margin: 3%;
+}
+#linkiniciobox{
+    margin: 3%;
 }
 
 @font-face {
@@ -21,16 +35,24 @@
     text-align: center;
 }
 
-img {
-    width: 15%;
+#logocorazon {
+    width: 20%;
 }
+
+.imagenlogobox {
+    display: flex;       
+    justify-content: center; 
+    align-items: center;     
+    height: 3%;
+}
+
 
 #Texto-inicio{
     margin: 3%;
     text-align: center;
 }
 .caja{
-    margin: 3%;
+    margin: 3%3% 3% 3%;
     width: auto;        
     height: auto;        
     display: flex;         
@@ -58,4 +80,27 @@ img {
     margin: 5%;
     text-align: center;
     font-size: 250%;
+}
+
+.boxpresentacion{
+    margin: 0%
+}
+
+.servicioslista{
+    margin: 5%;
+}
+
+#serviciosbox{
+    text-align: center;
+    margin: 3%;
+}
+
+#ulbox{
+    text-align: center;
+    margin: 3%;
+}
+
+.redesbox{
+    width: 100%;
+    background-color:rgb(132, 167, 233);
 }
