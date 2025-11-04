@@ -13,6 +13,7 @@ body{
 
 .boxcolor{
     padding: 5%;
+    background-color: rgb(222, 207, 252);
 }
 
 #Titulo-Nombre{
@@ -40,7 +41,7 @@ body{
     margin: 50px auto 0;
     overflow: hidden;
     text-align: center;
-
+    justify-content: center;
 }
 
 .compo-imagenes ul{
@@ -54,6 +55,7 @@ body{
     width: 100%;
     list-style: none;
     position: relative;
+
 }
 
 .compo-imagenes img{
@@ -75,8 +77,10 @@ body{
 }
 
 #imagencarrucel{
-    width: 60%;
+    width: 30%;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
 @font-face {
@@ -165,6 +169,7 @@ body{
     width: 100%;
     background-color:rgb(164, 190, 238);
     text-align: center;
+    padding: 1%;
 }
 
 .boximagenes {
@@ -178,7 +183,7 @@ body{
 #peronaslogo {
     margin-left: 5%;
     border-radius: 10px;
-    width: 40%;
+    width: 30%;
 }
 
 .listabox {
@@ -200,5 +205,5 @@ body{
 }
 
 #redesh3{
-    padding: 2%;
+    margin: 1%;
 }
